@@ -1,0 +1,16 @@
+$font-stack: Arial, sans-serif;
+$margin-link: 20px;
+
+body{
+    font-family:$font-stack;
+}
+
+title{
+    position:fixed;
+    right: 10px;
+    top: 10px;
+
+    a{
+        margin-left: $margin-link;
+    }
+}
